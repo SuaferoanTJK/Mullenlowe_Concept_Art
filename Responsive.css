@@ -1,0 +1,45 @@
+@media screen and (max-width:970px){
+	div.Header{
+		width: 65%;
+	}
+
+	div.Section{
+		height: auto;
+		flex-direction: column;
+	}
+	div.DogImage{
+		padding: 2%;
+	}
+	.Labrador{
+		height: 95%; width: 95%;
+	}
+
+	div.Info{
+		flex-wrap: wrap;
+		height: 250px;
+	}
+	.TextoInfo{
+		width: 200px; margin: auto;
+	}
+	.MiniInfo{
+		flex-direction: column;
+	}
+
+	div.Footer{
+		flex-wrap: wrap;
+		height: 250px;
+	}
+	div.Redes,	div.Empresa, div.Contactos{
+		padding: 1%;
+    text-align: center;
+	}
+}
+
+@media screen and (max-width:546px){
+	img.Logo{
+		border-right: none;
+	}
+	img.Mullenlowe{
+		display: none;
+	}
+}

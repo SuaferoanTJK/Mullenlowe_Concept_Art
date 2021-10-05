@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image: url('Imágenes/TED.png');
+	background-size: cover;
+}
+
+div.Raya{
+	height: 15px;
+	background-color: #ee005f;
+}
+h1{
+	display: none;
+}
+div.Header{
+	width: 75%; margin: 0 auto;
+}
+img.Logo{
+	padding: 15px 50px 10px 0px;
+	border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+img.Mullenlowe{
+	padding: 0px 0px 35px 30px;
+}
+
+
+div.Section{
+	height: 523px;
+	display: flex;
+	flex-direction: row;
+	width: 80%; margin: 0 auto;
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	color: white;
+	padding-top: 20px; padding-bottom: 20px;
+	text-align: justify;
+}
+div.Texts{
+	padding: 0.9%;
+}
+div.DogImage{
+	padding: 1%;
+}
+p.Parrafo1{
+	font-size: 20px;
+}
+p.Parrafo2{
+	font-size: 13px;
+}
+a.Boton{
+	border-radius: 30px;
+	background-color: #ee005f;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+div.Info{
+	height: 130px;
+	width: 90%; margin: 0 auto;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+div.MiniInfo{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+img.ImagenInfo{
+	padding-right: 20px;
+	border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+p.TextoInfo{
+	padding: 0.5%;
+	padding-left: 20px;
+}
+p.TextoInfo span{
+	font-size: 16px;
+}
+div.ContenedorInfo{
+	background: rgba(255, 255, 255, 0.1);
+}
+
+
+div.Footer{
+	width: 90%; margin: 0 auto;
+	padding-top: 30px; padding-bottom: 30px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+div.Redes li{
+	display: inline-block;
+	padding-bottom: 2%;
+}
+div.Redes ul{
+	text-align: center;
+}
+div.Redes a{
+	padding: 5%;
+}
+div.Empresa{
+	display: flex;
+	align-items: center;
+}
+div.Contactos{
+	text-align: right;
+}
+div.ContenedorFooter{
+	background: white;
+}
